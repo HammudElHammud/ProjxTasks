@@ -1,0 +1,157 @@
+.btn-round {
+    border-radius: 1.5rem;
+}
+
+.h-200xp {
+    height: 200px;
+}
+.btn-primary{
+    background-color: #82786f !important;
+    border: none;
+}
+
+.footer {
+    background-color: #82786f !important;
+}
+.btn-warning {
+    height: 50px !important;
+    width: 50px !important;
+    background-color: white !important;
+    border-color: white !important;
+
+}
+.object-fill {
+    object-fit: fill;
+}
+.object-cover {
+    object-fit: cover;
+}
+
+.min-h-300px {
+    min-height: 300px;
+}
+
+.min-h-400px {
+    min-height: 400px;
+}
+
+.max-w-200px {
+    max-width: 200px;
+}
+
+.max-w-125px {
+    max-width: 125px;
+}
+
+input:focus {
+    outline: none !important;
+    border:none !important;
+}
+
+#email:focus {
+    outline: 0 !important;
+    border: 0 !important;
+}
+#email:after {
+    outline: 0 !important;
+    border: 0 !important;
+}
+
+.btn-primary{
+    border: none !important;
+}
+
+
+.bulten {
+    border-radius: 1.5rem;
+    background: rgba(100, 100, 100, 0.1);
+    outline: none;
+    border: none;
+}
+
+.search-bar {
+    border-radius: 1.5rem;
+    background: rgba(100, 100, 100, 0.2);
+}
+/*
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+
+    .w-lg-50{
+        width: 50%;
+    }
+
+}
+
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+    /* CSS */
+    .w-lg-50 {
+        width: 50%;
+    }
+
+}
+
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    /* CSS */
+    .w-lg-50 {
+        width: 50%;
+    }
+
+}
+
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+    /* CSS */
+    .w-lg-50 {
+        width: 50%;
+    }
+
+}
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+    /* CSS */
+    .w-sm-50 {
+        width: 50%;
+    }
+
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    /* CSS */
+    .w-sm-50 {
+        width: 50%;
+    }
+
+}
